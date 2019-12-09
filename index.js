@@ -9,7 +9,9 @@ const app = express()
 mongoose.connect("mongodb+srv://test:test@todo-9zzzh.mongodb.net/test?retryWrites=true&w=majority")
 mongoose.Promise = global.Promise
 
+app.use(express.static('public'))
 app.use(bodyParser.json())
+
 //initialize routes
 app.use('/api', require('./routes/api'))
 
