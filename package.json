@@ -20,8 +20,11 @@
   "homepage": "https://github.com/iamshaunjp/rest-api-playlist#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
     "express": "^4.17.1",
-    "mongoose": "^5.7.14"
+    "mongoose": "^5.7.14",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^2.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.1"
